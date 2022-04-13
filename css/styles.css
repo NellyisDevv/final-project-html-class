@@ -83,7 +83,7 @@ nav {
 }
 .introduction {
   text-align: center;
-  margin-top: 15em;
+  margin-top: 20em;
 }
 .introduction h2 {
   color: var(--secondary-color);
@@ -122,204 +122,6 @@ nav {
   100% {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-  }
-}
-/* HEADER SOMEWHAT MOBILE RESPONSIVE */
-@media only screen and (max-width: 667px) {
-  header {
-    background-image: url(/images/mo-NhYj5-Ib7ik-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .logo-container {
-    flex: 1;
-  }
-  .logo-container h1 {
-    color: var(--secondary-color);
-    padding: 1em;
-    font-size: 1em;
-  }
-  .navigation-links {
-    flex: 1;
-    justify-content: center;
-  }
-  .navigation-links ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0.3em;
-    font-size: 1em;
-    margin-top: 1.4em;
-    justify-content: center;
-  }
-  .navigation-links li {
-    padding: 0.6em;
-  }
-  .navigation-links a {
-    text-decoration: none;
-    color: var(--secondary-color);
-  }
-  .navigation-links a:hover {
-    color: var(--primary-color);
-  }
-  .navigation-button {
-    flex: 1;
-    margin: 1.5em 2em 0em 0em;
-  }
-  .navigation-button ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 2.8em 0em 0em 0em;
-  }
-  .navigation-button a {
-    background-color: var(--primary-color);
-    padding: 0.4em;
-    color: var(--secondary-color);
-    text-decoration: none;
-    border-radius: 2em;
-    font-size: 1em;
-  }
-  .navigation-button a:hover {
-    animation-name: button-hover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  .introduction {
-    text-align: center;
-    margin-top: 10em;
-  }
-  .introduction h2 {
-    color: var(--secondary-color);
-    font-size: 3em;
-    padding: 0em 0em 0.3em 0em;
-  }
-  .introduction p {
-    color: var(--secondary-color);
-    font-size: 2em;
-    padding: 0em 0em 1.2em 0em;
-  }
-  .introduction a {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    font-size: 1em;
-    text-decoration: none;
-    padding: 0.5em;
-    border-radius: 2em;
-  }
-  .introduction a:hover {
-    animation-name: button-hover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-  }
-}
-/* HEADER SOMEWHAT TABLET RESPONSIVE */
-@media only screen and (max-width: 1180px) {
-  header {
-    background-image: url(/images/mo-NhYj5-Ib7ik-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    max-width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .logo-container {
-    flex: 1;
-  }
-  .logo-container h1 {
-    color: var(--secondary-color);
-    padding: 1em;
-    font-size: 1em;
-  }
-  .navigation-links {
-    flex: 1;
-    justify-content: center;
-  }
-  .navigation-links ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0.3em;
-    font-size: 1em;
-    margin-top: 1.4em;
-    justify-content: center;
-  }
-  .navigation-links li {
-    padding: 0.6em;
-  }
-  .navigation-links a {
-    text-decoration: none;
-    color: var(--secondary-color);
-  }
-  .navigation-links a:hover {
-    color: var(--primary-color);
-  }
-  .navigation-button {
-    flex: 1;
-    margin: 1.5em 2em 0em 0em;
-  }
-  .navigation-button ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 2.8em 0em 0em 0em;
-  }
-  .navigation-button a {
-    background-color: var(--primary-color);
-    padding: 0.4em;
-    color: var(--secondary-color);
-    text-decoration: none;
-    border-radius: 2em;
-    font-size: 1em;
-  }
-  .navigation-button a:hover {
-    animation-name: button-hover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  .introduction {
-    text-align: center;
-    margin-top: 10em;
-  }
-  .introduction h2 {
-    color: var(--secondary-color);
-    font-size: 3em;
-    padding: 0em 0em 0.3em 0em;
-  }
-  .introduction p {
-    color: var(--secondary-color);
-    font-size: 2em;
-    padding: 0em 0em 1.2em 0em;
-  }
-  .introduction a {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    font-size: 1em;
-    text-decoration: none;
-    padding: 0.5em;
-    border-radius: 2em;
-  }
-  .introduction a:hover {
-    animation-name: button-hover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
   }
 }
 .introduce {
@@ -379,14 +181,90 @@ nav {
   padding: 0.5em;
   border-radius: 2em;
 }
-@media only screen and (max-width: 667px) {
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 5em;
+}
+footer h4 {
+  font-size: 3em;
+  color: white;
+}
+@media (max-device-width: 376px) {
+  header {
+    background-image: url('https://images.unsplash.com/photo-1627734819947-ba884aea9801?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2434&q=80');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    color: var(--secondary-color);
+    padding: 1em;
+    font-size: 1em;
+  }
+  .navigation-links {
+    flex: 1;
+    justify-content: center;
+  }
+  .navigation-links ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.3em;
+    position: relative;
+    bottom: 1.2em;
+    font-size: 1em;
+    justify-content: center;
+  }
+  .navigation-links li {
+    padding: 0.6em;
+  }
+  .navigation-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  .navigation-links a:hover {
+    color: var(--primary-color);
+  }
+  .navigation-button {
+    flex: 1;
+    margin: 0 2em 0em 0em;
+  }
+  .navigation-button ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  .navigation-button a {
+    background-color: var(--primary-color);
+    padding: 0.4em;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 0.8em;
+  }
+  .navigation-button a:hover {
+    animation-name: button-hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
   .introduction {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 3em;
   }
   .introduction h2 {
     color: var(--secondary-color);
-    font-size: 3em;
+    font-size: 4em;
     padding: 0em 0em 0.3em 0em;
   }
   .introduction p {
@@ -409,6 +287,9 @@ nav {
     background-color: var(--secondary-color);
     color: var(--primary-color);
   }
+  .introduce {
+    text-align: center;
+  }
   .me h2 {
     color: var(--primary-color);
     font-size: 2em;
@@ -416,7 +297,7 @@ nav {
   }
   .me p {
     font-size: 1em;
-    padding: 0em 0.9em 1.5em 0.9em;
+    padding: 0em 0.9em 2em 0.9em;
   }
   .me a {
     background-color: var(--primary-color);
@@ -429,32 +310,33 @@ nav {
   .some-work {
     display: flex;
     flex-direction: column;
-    margin: 0.1em 0em 0em 0em;
+    margin: 4em 0em 0em 0em;
+    padding: 5em;
+    background-color: #e5e5e5;
   }
   .bp-hero {
     flex: 1;
   }
   .bp-hero img {
-    width: 80%;
+    width: 100%;
     border-radius: 4em;
-    position: relative;
-    left: 1.3em;
-    padding: 0em 0em 0.3em 0em;
+    padding: 0 0 1.2em 0;
   }
   .bp-hero-text {
     flex: 1;
     margin: auto;
+    text-align: center;
   }
   .bp-hero-text h3 {
     font-size: 2em;
+    padding: 0em 0em 0.5em 0em;
     text-align: center;
     color: var(--primary-color);
-    padding: 0em 0em 0.3em 0em;
   }
   .bp-hero-text p {
     font-size: 1em;
     text-align: center;
-    padding: 0em 0em 1.5em 0em;
+    padding: 0em 0em 2em 0em;
   }
   .bp-hero-text a {
     background-color: var(--primary-color);
@@ -464,13 +346,179 @@ nav {
     padding: 0.5em;
     border-radius: 2em;
   }
+  footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 5em;
+  }
+  footer h4 {
+    font-size: 1.8em;
+    color: white;
+  }
 }
-footer {
-  text-align: center;
-  background-color: var(--primary-color);
-  padding: 5em;
-}
-footer h4 {
-  font-size: 3em;
-  color: white;
+@media (min-device-width: 377px) and (max-device-width: 540px) {
+  header {
+    background-image: url('https://images.unsplash.com/photo-1627734819947-ba884aea9801?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2434&q=80');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo-container h1 {
+    color: var(--secondary-color);
+    padding: 1em;
+    font-size: 1em;
+  }
+  .navigation-links {
+    flex: 1;
+    justify-content: center;
+  }
+  .navigation-links ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.3em;
+    position: relative;
+    bottom: 1.2em;
+    font-size: 1em;
+    justify-content: center;
+  }
+  .navigation-links li {
+    padding: 0.6em;
+  }
+  .navigation-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  .navigation-links a:hover {
+    color: var(--primary-color);
+  }
+  .navigation-button {
+    flex: 1;
+    margin: 0 2em 0em 0em;
+  }
+  .navigation-button ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  .navigation-button a {
+    background-color: var(--primary-color);
+    padding: 0.4em;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 0.8em;
+  }
+  .navigation-button a:hover {
+    animation-name: button-hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .introduction {
+    text-align: center;
+    margin-top: 3em;
+  }
+  .introduction h2 {
+    color: var(--secondary-color);
+    font-size: 4em;
+    padding: 0em 0em 0.3em 0em;
+  }
+  .introduction p {
+    color: var(--secondary-color);
+    font-size: 2em;
+    padding: 0em 0em 1.2em 0em;
+  }
+  .introduction a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+  }
+  .introduction a:hover {
+    animation-name: button-hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  .introduce {
+    text-align: center;
+  }
+  .me h2 {
+    color: var(--primary-color);
+    font-size: 2em;
+    padding: 0.5em 0em 0.5em 0em;
+  }
+  .me p {
+    font-size: 1em;
+    padding: 0em 0.9em 2em 0.9em;
+  }
+  .me a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+  }
+  .some-work {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 0em 0em 0em;
+    padding: 5em;
+    background-color: #e5e5e5;
+  }
+  .bp-hero {
+    flex: 1;
+  }
+  .bp-hero img {
+    width: 100%;
+    border-radius: 4em;
+    padding: 0 0 1.2em 0;
+  }
+  .bp-hero-text {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+  }
+  .bp-hero-text h3 {
+    font-size: 2em;
+    padding: 0em 0em 0.5em 0em;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  .bp-hero-text p {
+    font-size: 1em;
+    text-align: center;
+    padding: 0em 0em 2em 0em;
+  }
+  .bp-hero-text a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 2em;
+  }
+  footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 5em;
+  }
+  footer h4 {
+    font-size: 1.8em;
+    color: white;
+  }
 }
